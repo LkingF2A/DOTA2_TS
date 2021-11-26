@@ -1,5 +1,5 @@
 {
-    "name": "ts_template",
+    "name": "dota2_001",
     "description": "a ts-react template for dota2 modding, together with some helper scripts",
     "license": "MIT",
     "repository": "https://github.com/XavierCHN/x-template",
@@ -60,7 +60,7 @@
         "react": "^16.14.0",
         "react-panorama": "npm:@demon673/react-panorama@^0.2.0",
         "rimraf": "^3.0.2",
-        "sass": "^1.32.8",
+        "sass": "^1.43.4",
         "sass-loader": "^10.1.1",
         "steam-game-path": "^2.0.1",
         "ts-loader": "^8.1.0",
@@ -79,5 +79,8 @@
         "singleQuote": false,
         "arrowParens": "always",
         "proseWrap": "never"
+    },
+    "dependencies": {
+        "scss": "^0.2.4"
     }
 }
