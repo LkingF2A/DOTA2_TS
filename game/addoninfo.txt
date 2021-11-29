@@ -1,0 +1,77 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+ HideInTools = false
+ IsPlayable = true
+ IsTemplate = false
+ maps = 
+ [
+  "dota",
+ ]
+ CheckAFKPlayers = false
+ DefaultMap = "dota"
+ Default_Keys = 
+ [
+  {
+   Key = "D"
+   Command = "+Ability1"
+  },
+  {
+   Key = "F"
+   Command = "+Ability2"
+  },
+  {
+   Key = "G"
+   Command = "+Ability3"
+  },
+  {
+   Key = "Q"
+   Command = "+Ability4"
+  },
+  {
+   Key = "W"
+   Command = "+Ability5"
+  },
+  {
+   Key = "E"
+   Command = "+Ability6"
+  },
+  {
+   Key = "R"
+   Command = "+Ability7"
+  },
+  {
+   Key = "T"
+   Command = "+Ability8"
+  },
+  {
+   Key = "Z"
+   Command = "+Ability9"
+  },
+  {
+   Key = "X"
+   Command = "+Ability10"
+  },
+  {
+   Key = "C"
+   Command = "+Ability11"
+  },
+  
+ ]
+ DisableIK = false
+ EnablePickRules = false
+ EventGame = false
+ hero_picker = null
+ HeroGuidesSupported = false
+ ForceDefaultGuide = false
+ MinimalPrecache = false
+ MinPlayers = 1
+ MaxPlayers = 10
+ map_options = 
+ [
+  {
+   map = "dota"
+  },
+ ]
+ PenaltiesEnabled = false
+ TeamCount = -1
+}
