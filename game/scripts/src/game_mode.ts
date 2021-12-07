@@ -37,7 +37,7 @@ export class GameMode {
     private configure(): void {
         GameRules.SetCustomGameTeamMaxPlayers(DOTATeam_t.DOTA_TEAM_GOODGUYS, 3);
         GameRules.SetCustomGameTeamMaxPlayers(DOTATeam_t.DOTA_TEAM_BADGUYS, 3);
-
+        // GameRules.SetGoldPerTick(0)     //【新增】玩家每秒金币增长数0
         GameRules.SetShowcaseTime(0);     // 是不做一个阶段的展示，就是那个选英雄之后的双方英雄展示
         GameRules.SetHeroSelectionTime(45);    // 是英雄选择时间
     }
@@ -58,6 +58,7 @@ export class GameMode {
                 ability.SetLevel(4)
             }
         }
+        hero.SetAbilityPoints(0)
     }
     gCD(event:GameEventProvidedProperties & DotaPlayerUsedAbilityEvent) {
         const hero = EntIndexToHScript(event.caster_entindex) as CDOTA_BaseNPC_Hero

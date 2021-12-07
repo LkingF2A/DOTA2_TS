@@ -13,47 +13,47 @@
  [
   {
    Key = "D"
-   Command = "+Ability1"
+   Command = "+Ability0"
   },
   {
    Key = "F"
-   Command = "+Ability2"
+   Command = "+Ability1"
   },
   {
    Key = "G"
-   Command = "+Ability3"
+   Command = "+Ability2"
   },
   {
    Key = "Q"
-   Command = "+Ability4"
+   Command = "+Ability3"
   },
   {
    Key = "W"
-   Command = "+Ability5"
+   Command = "+Ability4"
   },
   {
    Key = "E"
-   Command = "+Ability6"
+   Command = "+Ability5"
   },
   {
    Key = "R"
-   Command = "+Ability7"
+   Command = "+Ability6"
   },
   {
    Key = "T"
-   Command = "+Ability8"
+   Command = "+Ability7"
   },
   {
    Key = "Z"
-   Command = "+Ability9"
+   Command = "+Ability8"
   },
   {
    Key = "X"
-   Command = "+Ability10"
+   Command = "+Ability9"
   },
   {
    Key = "C"
-   Command = "+Ability11"
+   Command = "+Ability10"
   },
   
  ]
